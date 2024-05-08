@@ -1,0 +1,51 @@
+.user-avatar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* header.component.css */
+
+.header {
+  background-color: #a34d14; /* Change to your desired background color */
+  padding: 10px 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: bold;
+}
